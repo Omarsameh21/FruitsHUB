@@ -8,7 +8,7 @@ import 'package:flutter_svg/svg.dart';
 
 class SplashViewBody extends StatefulWidget {
   const SplashViewBody({super.key});
-
+//j
   @override
   State<SplashViewBody> createState() => _SplashViewBodyState();
 }
