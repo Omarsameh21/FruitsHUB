@@ -25,7 +25,7 @@ class OnBoardingPageView extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 const Text(
-                  'مرحبًا بك في ',
+                  'مرحبًا بك فـي ',
                   style: Styles.textStyle28Bold,
                 ),
                 Text(

@@ -1,3 +1,5 @@
+import 'package:ecommerce_app/core/utils/widgets/costum_app_bar.dart';
+import 'package:ecommerce_app/features/auth/presentation/views/login_view_body.dart';
 import 'package:flutter/material.dart';
 
 class LoginView extends StatelessWidget {
@@ -7,6 +9,9 @@ class LoginView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      appBar: costumAppBar(context, title: 'تسجيل دخول'),
+      body: const LoginViewBody(),
+    );
   }
 }

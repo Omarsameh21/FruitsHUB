@@ -1,5 +1,6 @@
 import 'package:ecommerce_app/core/helper_functions/on_generate_routes.dart';
 import 'package:ecommerce_app/core/services/shared_prefrences_singleton.dart';
+import 'package:ecommerce_app/core/utils/app_color.dart';
 import 'package:ecommerce_app/features/splash/presentation/views/splash_view.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
@@ -30,7 +31,11 @@ class FruitApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       onGenerateRoute: onGenerateRoutes,
       initialRoute: SplashView.routeName,
-      theme: ThemeData(textTheme: GoogleFonts.cairoTextTheme()),
+      theme: ThemeData(
+        fontFamily: 'Cairo',
+        scaffoldBackgroundColor: Colors.white,
+        colorScheme: ColorScheme.fromSeed(seedColor: AppColor.kPrimaryColor),
+      ),
     );
   }
 }

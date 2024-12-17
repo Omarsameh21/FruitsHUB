@@ -6,9 +6,17 @@ class Assets {
   /// assets/images/appIcon.jpg
   static const String imagesAppIcon = "assets/images/appIcon.jpg";
 
+  /// Assets for imagesApple
+  /// assets/images/Apple.svg
+  static const String imagesApple = "assets/images/Apple.svg";
+
   /// Assets for imagesBubbleImage
   /// assets/images/bubble_image.svg
   static const String imagesBubbleImage = "assets/images/bubble_image.svg";
+
+  /// Assets for imagesFacebook
+  /// assets/images/Facebook.svg
+  static const String imagesFacebook = "assets/images/Facebook.svg";
 
   /// Assets for imagesFreepikPineappleInject149
   /// assets/images/freepik--Pineapple--inject-149.svg
@@ -21,6 +29,10 @@ class Assets {
   /// Assets for imagesFruitBasket
   /// assets/images/fruitBasket.svg
   static const String imagesFruitBasket = "assets/images/fruitBasket.svg";
+
+  /// Assets for imagesGoogle
+  /// assets/images/Google.svg
+  static const String imagesGoogle = "assets/images/Google.svg";
 
   /// Assets for imagesLogo
   /// assets/images/logo.svg
@@ -37,5 +49,9 @@ class Assets {
   /// Assets for imagesTeelBackgroend
   /// assets/images/teelBackgroend.svg
   static const String imagesTeelBackgroend = "assets/images/teelBackgroend.svg";
+
+  /// Assets for imagesTrueCheck
+  /// assets/images/true_check.svg
+  static const String imagesTrueCheck = "assets/images/true_check.svg";
 }
 

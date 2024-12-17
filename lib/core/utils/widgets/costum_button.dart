@@ -10,18 +10,21 @@ class CostumButton extends StatelessWidget {
   final String text;
   @override
   Widget build(BuildContext context) {
-    return SizedBox(
-      height: 54,
-      width: double.infinity,
-      child: TextButton(
-        style: TextButton.styleFrom(
-            shape:
-                RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
-            backgroundColor: AppColor.kPrimaryColor),
-        onPressed: onPressed,
-        child: Text(
-          text,
-          style: Styles.textStyle16Bold.copyWith(color: kWhiteStyle),
+    return Padding(
+      padding: const EdgeInsets.symmetric(horizontal: 16),
+      child: SizedBox(
+        height: 56,
+        width: double.infinity,
+        child: TextButton(
+          style: TextButton.styleFrom(
+              shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(16)),
+              backgroundColor: AppColor.kPrimaryColor),
+          onPressed: onPressed,
+          child: Text(
+            text,
+            style: Styles.textStyle18Bold.copyWith(color: kWhiteStyle),
+          ),
         ),
       ),
     );
